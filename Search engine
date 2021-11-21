@@ -1,0 +1,11 @@
+def search(text, word):
+ if word in text:
+  return "Word found"
+ else:
+  return "Word not found"
+if __name__=="__main__": 
+ text=input("")
+ word = input("")
+ res = search(text=text, word=word)
+
+print (res)
